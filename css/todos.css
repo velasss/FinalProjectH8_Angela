@@ -1,0 +1,68 @@
+
+body {
+  justify-content: left;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color:yellowgreen;
+}
+
+ul {
+  list-style-type: none; 
+  margin: 0px 20px 20px 20px;
+  text-indent: 2rem;
+}
+
+
+.todo-form {
+  margin: 40px 0px;
+}
+
+.todo-input {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.add-button {
+  background-color:teal;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.todo-items {
+  min-width: 200px;
+  text-align-last: left;
+  font-size: 1,8rem;
+  margin: 0px 20px 20px 70px;
+}
+
+.checkbox {
+  float: left;
+  margin-right: 15px;
+}
+
+.delete-button {
+  float:inline-end;
+  background-color: #eea144;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 2px 2px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.checked { 
+  text-decoration: line-through;
+  color:teal;
+}
